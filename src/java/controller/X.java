@@ -22,7 +22,7 @@ public class X extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        Mail.sendMail("lakshithahitibandara@gmail.com", "Mail Subject Here", "Body content of the Mail");
+        Mail.sendMail("lakshithahitibandara@gmail.com", "Mail Subject Here", "<h1 style=\"color:red;\">Thank You</h1>");
         
     }
 
